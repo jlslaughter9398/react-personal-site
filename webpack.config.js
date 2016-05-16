@@ -11,17 +11,13 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['react', 'es2015', 'stage-0'],
-          plugins: ['react-html-attrs', 'transform-class-properties', 'transform-decorators-legacy'],
-        }
+        loaders: ['react-hot', 'babel-loader?presets[]=es2015,presets[]=stage-0,presets[]=react,plugins[]=react-html-attrs,plugins[]=transform-class-properties,plugins[]=transform-decorators-legacy'],
       }
     ]
   },
   output: {
-    path: path.join(__dirname, 'dist'),
-    filename: 'bundle.min.js'
+    path: __dirname + '/dist',
+    filename: 'bundle.js'
   },
   plugins: debug ? [] : [
     new webpack.optimize.DedupePlugin(),
