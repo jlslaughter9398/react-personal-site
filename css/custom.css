@@ -179,6 +179,39 @@ span.home-page ~ div.footer {
   animation: fadeInUp 300ms linear 1200ms both;
 }
 
+#resume .resume-center {
+    text-align: center;
+}
+#resume .resume-left {
+    text-align: left;
+}
+#resume .resume-right {
+    text-align: right;
+}
+#resume .resume-intro {
+    font-weight: bold;
+    text-decoration: underline;
+}
+#resume .resume-exp-bold {
+    font-weight: bold;
+}
+#resume .resume-exp-title {
+    font-weight: bold;
+    font-style: italic;
+}
+#resume .resume-exp-time {
+    font-weight: bold;
+    text-align: right;
+    float: right;
+}
+#resume .resume-exp-job-break {
+    margin-top: 25px;
+}
+#resume .resume-button-2 {
+    margin-top: 15px;
+    padding-right: 21px;
+}
+
 @media(max-width:767px) {
 	#main-slider .carousel h2 {
 	  font-size: 42px;

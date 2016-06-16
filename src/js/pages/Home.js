@@ -33,20 +33,20 @@ export default class Home extends React.Component {
                     <Slider {...settings}>                        
                         <div className="slider-image1 carousel">
                             <div className="container">
-                                <h2 className="animation animated-item-1">Welcome to BASICA! A Bootstrap3 Template - Slide1</h2>
-                                <p className="animation animated-item-2">Sed mattis enim in nulla blandit tincidunt. Phasellus vel sem convallis, mattis est id, interdum augue. Integer luctus massa in arcu euismod venenatis. </p>
+                                <h2 className="animation animated-item-1">Welcome to<br />JSPREMIERWEBSOLUTIONS</h2>
+                                <p className="animation animated-item-2">Get a web application built that fits your needs and satisfaction.</p>
                             </div>
                         </div>                        
                         <div className="slider-image2 carousel">
                             <div className="container">
-                                <h2 className="animation animated-item-1">Welcome to BASICA! A Bootstrap3 Template - Slide2</h2>
-                                <p className="animation animated-item-2">Sed mattis enim in nulla blandit tincidunt. Phasellus vel sem convallis, mattis est id, interdum augue. Integer luctus massa in arcu euismod venenatis. </p>
+                                <h2 className="animation animated-item-1">Welcome to<br />JSPREMIERWEBSOLUTIONS</h2>
+                                <p className="animation animated-item-2">Get the assistance you need to create or enhance your online presence.</p>
                             </div>
                         </div>                        
                         <div className="slider-image3 carousel">
                             <div className="container">
-                                <h2 className="animation animated-item-1">Welcome to BASICA! A Bootstrap3 Template - Slide3</h2>
-                                <p className="animation animated-item-2">Sed mattis enim in nulla blandit tincidunt. Phasellus vel sem convallis, mattis est id, interdum augue. Integer luctus massa in arcu euismod venenatis. </p>
+                                <h2 className="animation animated-item-1">Welcome to<br />JSPREMIERWEBSOLUTIONS</h2>
+                                <p className="animation animated-item-2">Get a leg up on your competitors with a web application that allows you to stand out in your industry.</p>
                             </div>
                         </div>
                     </Slider>

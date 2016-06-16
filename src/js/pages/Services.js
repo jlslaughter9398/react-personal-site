@@ -1,5 +1,4 @@
 import React from "react";
-import { IndexLink, Link } from "react-router";
 
 export default class Services extends React.Component {
     render() {
@@ -23,28 +22,17 @@ export default class Services extends React.Component {
                         </div>
                         <div className="col-sm-12">
                             <hr />
-                            <h2>We are a Graphic Design company</h2>
-                            <h3>Specializing in Wordpress Theme Development</h3>
+                            <h2>Here's how I can enhance your online profile:</h2>
+                            <ul>
+                                <li>Develop custom web applications that will allow you to more effectively reach your customers.</li>
+                                <li>Create dynamic and beautiful web pages that will enhance your online presence.</li>
+                                <li>Applications can be developed in areas such as: Single Page Applications (SPAs), Order support and handling, Inventory tracking, Informational/Brochure sites, eCommerce, and any other area where an online identity or automated workflow is needed.</li>
+                                <li>Google Analytics can be added to all web applications to track metrics such as: site hits and page usage.</li>
+                            </ul>
                             <p>
-                            Donec elementum mi vitae enim fermentum lobortis. In hac habitasse platea dictumst. Ut pellentesque, orci sed mattis consequat, libero ante lacinia arcu, ac porta lacus urna in lorem. Praesent consectetur tristique augue, eget elementum diam suscipit id. Donec elementum mi vitae enim fermentum lobortis. In hac habitasse platea dictumst. Ut pellentesque, orci sed mattis consequat, libero ante lacinia arcu, ac porta lacus urna in lorem. Praesent consectetur tristique augue, eget elementum diam suscipit id.
+                                These web applications are developed using the React JS Javascript framework. React JS is one of the fastest-growing and most widely-adopted Javascript frameworks available, it's used by companies such as Facebook, Instagram, Netflix, AirBnb, Visa, and The New York Times. Another great feature of React Js are the many great 3rd party React JS libraries and plug-ins that allow me to enhance web applications with new features in a very quickly.
                             </p>
-                            <p>
-                                Donec elementum mi vitae enim fermentum lobortis. In hac habitasse platea dictumst. Ut pellentesque, orci sed mattis consequat, libero ante lacinia arcu, ac porta lacus urna in lorem. Praesent consectetur tristique augue, eget elementum diam suscipit id.
-                            </p>
-                            <h3>Wide range of services</h3>
-                            <p>
-                                Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam condimentum laoreet sagittis. Duis quis ullamcorper leo. Suspendisse potenti.
-                                Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam condimentum laoreet sagittis. Duis quis ullamcorper leo. Suspendisse potenti.
-                            </p>
-        
-                            <div className="clients-logo-wrapper text-center row">
-                                <div className="col-lg-2 col-md-1 col-sm-3 col-xs-6"><Link to="/"><img src="../../../img/logos/logo-1.jpg" alt="Client Name" /></Link></div>
-                                <div className="col-lg-2 col-md-1 col-sm-3 col-xs-6"><Link to="/"><img src="../../../img/logos/logo-2.jpg" alt="Client Name" /></Link></div>
-                                <div className="col-lg-2 col-md-1 col-sm-3 col-xs-6"><Link to="/"><img src="../../../img/logos/logo-3.jpg" alt="Client Name" /></Link></div>
-                                <div className="col-lg-2 col-md-1 col-sm-3 col-xs-6"><Link to="/"><img src="../../../img/logos/logo-4.jpg" alt="Client Name" /></Link></div>
-                                <div className="col-lg-2 col-md-1 col-sm-3 col-xs-6"><Link to="/"><img src="../../../img/logos/logo-5.jpg" alt="Client Name" /></Link></div>
-                                <div className="col-lg-2 col-md-1 col-sm-3 col-xs-6"><Link to="/"><img src="../../../img/logos/logo-6.jpg" alt="Client Name" /></Link></div>
-                            </div>
+                            <h3>Coming Soon: Custom native mobile app development using the React Native framework.</h3>
                         </div>
                     </div>
                 </div>
